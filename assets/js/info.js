@@ -19,12 +19,14 @@ window.alert = function(message , timeout= null){
          transform: translateX(-50%);
           width:200px ;
           height: 100px;
-          background-image: 
-
+          background-image: url(../img/information.png);
+           background-size: 70px;
+           background-position: center; 
+            background-repeat: no-repeat;          
         `);
         alertbutton.setAttribute('style', `
               border:1px solid #333;
-              background: blue;
+              background:  rgb(35, 110, 248);
               border-radius: 5px;
               padding: 5px;
               width:80px ; 
