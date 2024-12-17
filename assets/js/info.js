@@ -17,13 +17,19 @@ window.alert = function(message , timeout= null){
         flex-direction :column;
          border:1px solid #333;
          transform: translateX(-50%);
+          width:200px ;
+          height: 100px;
         `);
         alertbutton.setAttribute('style', `
               border:1px solid #333;
               background: blue;
               border-radius: 5px;
               padding: 5px;
+              width:80px ; 
+              margin-left:60px;
+              margin-top:50px;
             `)
+            
     alert.innerHTML= `<span style="padding:10px;"> ${message}</span>`;
     alert.appendChild(alertbutton);
     alertbutton.addEventListener('click', (e)=>{
