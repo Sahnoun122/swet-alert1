@@ -19,6 +19,8 @@ window.alert = function(message , timeout= null){
          transform: translateX(-50%);
           width:200px ;
           height: 100px;
+          background-image: 
+
         `);
         alertbutton.setAttribute('style', `
               border:1px solid #333;
